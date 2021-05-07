@@ -42,13 +42,13 @@ e.g $arr = array(0,1,2,3,4,5,6,7,7,8,9,10...................);
 
 let arr=[];
 
-for (let i= 0; i < 10; i++) {
+for (let i= 0; i < 11; i++) {
     arr.push(i);
 }
 
 arr.push(10); //push 101 to make it repeatable in array
 
-for (let i= 0; i< 101; i++) {
+for (let i= 0; i< 11; i++) {
     if(arr[i]===arr[i+1]){
 
         console.log("The repeated number n the array  is:",arr[i]);
